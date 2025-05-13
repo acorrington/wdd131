@@ -1,15 +1,10 @@
 :root {
     /* Color Variables */
     --primary-color: #2C3E50;
-    /* Dark blue for header/footer */
     --secondary-color: #E74C3C;
-    /* Vibrant red for accents */
     --accent1-color: #3498DB;
-    /* Bright blue for highlights */
     --accent2-color: #ECF0F1;
-    /* Light gray for background */
     --accent3-color: #F1C40F;
-    /* Yellow for hover effects */
 
     /* Font Variables */
     --heading-font: 'Poppins', sans-serif;
@@ -90,9 +85,21 @@ main section.card {
     transition: transform 0.3s ease;
 }
 
-main section.card h1 {
+main section.card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    font-family: var(--text-font);
+}
+
+main section.card a:hover {
+    color: var(--accent1-color);
+}
+
+main section.card h2 {
     font-family: var(--heading-font);
-    font-size: 1.8rem;
+    font-size: 1.35rem;
     margin: 0 0 1rem;
     padding: 0.5rem 0;
     color: var(--primary-color);
