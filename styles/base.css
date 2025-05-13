@@ -181,7 +181,7 @@ footer p.copy {
 footer p.modified {
     font-size: 0.85rem;
     font-style: italic;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 /* Responsive Design */
