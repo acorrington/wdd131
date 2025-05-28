@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Page</title>
+    <meta name="description" content="A page to display information about a specific place.">
+    <meta name="author" content="Aaron Corrington">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Oregon</h1>
+    </header>
+    <main>
+        <section id="hero">
+            <picture>
+                <source media="(max-width: 768px)" srcset="images/oregon-mobile.webp" type="image/webp">
+                <source media="(min-width: 769px)" srcset="images/oregon-desktop.webp" type="image/webp">
+                <img src="images/oregon-mobile.webp"
+                    alt="A scenic view of Oregon's landscapes, featuring forests or coastlines" loading="lazy">
+            </picture>
+        </section>
+        <section id="place-info">
+            <h2>Data</h2>
+            <p>Area: <span>98,381 sq mi</span></p>
+            <p>Population: <span>4,240,137</span></p>
+            <p>Capital: <span>Salem</span></p>
+            <p>Languages: <span>English (official)</span></p>
+            <p>Currency: <span>United States Dollar</span></p>
+            <p>Time Zone: <span>Pacific Time (UTC-8/UTC-7 DST)</span></p>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div id="weather-icon-container">
+                <div id="weather-icon">
+                    <img src="images/weather-icon.svg" alt="Weather Icon">
+                </div>
+            </div>
+            <p>Temperature: <span id="temperature">44</span><span>°F</span></p>
+            <p>Conditions: <span>Mostly Sunny</span></p>
+            <p>Wind: <span id="wind-speed">15</span><span> mph</span></p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">&copy; <span id="year"></span> Aaron Corrington USA</p>
+        <p class="modified">Last modified: <span id="modified"></span></p>
+    </footer>
+</body>
+
+</html>
