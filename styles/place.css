@@ -4,7 +4,7 @@
     --stone-gray: #6B7280;
     --off-white: #F5F5F5;
     --muted-amber: #D97706;
-    --heading-font: 'Poppins', sans-serif;
+    --heading-font: 'Lato', sans-serif;
     --text-font: 'Open Sans', sans-serif;
     --standard-padding: 1.5rem;
     --border-radius: 8px;
@@ -183,7 +183,7 @@ footer p {
         display: none;
     }
 
-    #weather-icon-container::before {
+    #weather-icon-container::after {
         content: "";
         display: inline-block;
         width: 64px;
