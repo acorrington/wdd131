@@ -29,6 +29,7 @@ header {
     text-align: center;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
+    border-bottom: 4px solid var(--primary-yellow); /* Yellow accent */
 }
 
 .logo img {
@@ -36,6 +37,7 @@ header {
     margin: auto;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 3px solid var(--primary-yellow); /* Yellow border */
 }
 
 main {
@@ -85,6 +87,7 @@ li {
     border: 1px solid var(--border);
     vertical-align: middle;
     margin-right: 0.5rem;
+    border-radius: 0.25rem;
 }
 
 .wireframe {
