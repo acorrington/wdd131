@@ -1,12 +1,10 @@
 const nav = document.querySelector('nav');
-
 const hamburger = document.querySelector('.hamburger');
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
 
 const navLinks = document.querySelectorAll('.nav-link');
-console.log(navLinks);
 navLinks.forEach(navLink => {
     navLink.addEventListener('click', () => {
         if (nav.classList.contains('active')) {

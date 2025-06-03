@@ -1,0 +1,104 @@
+/* Define color variables from the existing site */
+:root {
+    --primary-blue: #2563eb;
+    --primary-yellow: #facc15;
+    --background: #f3f4f6;
+    --text: #1f2937;
+    --white: #ffffff;
+    --border: #d1d5db;
+    --font-family: 'Roboto', sans-serif;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 1rem;
+}
+
+/* Header styles */
+header {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 200px;
+    margin: auto;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.color-sample {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--border);
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+/* Wireframe description */
+.wireframe {
+    border: 1px solid var(--border);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem; 
+    margin-bottom: 2rem;}
+
+.wireframe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
