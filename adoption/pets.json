@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Buddy",
+        "species": "Dog",
+        "breed": "Golden Retriever",
+        "age": 2,
+        "description": "Friendly and energetic, loves to play fetch.",
+        "image": "pet1.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Large",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Playful, affectionate"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Siamese",
+        "age": 3,
+        "description": "Elegant and vocal, enjoys cozy naps.",
+        "image": "pet2.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Talkative, curious"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador",
+        "age": 4,
+        "description": "Loyal companion, great with kids.",
+        "image": "pet3.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Large",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Gentle, friendly"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Mittens",
+        "species": "Cat",
+        "breed": "Tabby",
+        "age": 1,
+        "description": "Playful kitten, loves to chase toys.",
+        "image": "pet4.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Small",
+            "vaccinated": true,
+            "spayedNeutered": false,
+            "temperament": "Energetic, cuddly"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Rocky",
+        "species": "Dog",
+        "breed": "Boxer",
+        "age": 3,
+        "description": "Strong and protective, loves walks.",
+        "image": "pet5.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Large",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Loyal, energetic"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Whiskers",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 5,
+        "description": "Calm and fluffy, loves quiet spaces.",
+        "image": "pet6.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Relaxed, affectionate"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Daisy",
+        "species": "Dog",
+        "breed": "Beagle",
+        "age": 2,
+        "description": "Curious and friendly, loves to explore.",
+        "image": "pet7.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Curious, playful"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Shadow",
+        "species": "Cat",
+        "breed": "Black Shorthair",
+        "age": 4,
+        "description": "Mysterious and independent, loves perching.",
+        "image": "pet8.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Independent, observant"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Bella",
+        "species": "Dog",
+        "breed": "Poodle",
+        "age": 3,
+        "description": "Smart and elegant, loves attention.",
+        "image": "pet9.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Intelligent, affectionate"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Oliver",
+        "species": "Cat",
+        "breed": "Maine Coon",
+        "age": 2,
+        "description": "Large and friendly, loves to cuddle.",
+        "image": "pet10.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Large",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Sociable, gentle"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Charlie",
+        "species": "Dog",
+        "breed": "Bulldog",
+        "age": 5,
+        "description": "Calm and loyal, loves to nap.",
+        "image": "pet11.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Calm, loyal"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Lucy",
+        "species": "Cat",
+        "breed": "Ragdoll",
+        "age": 3,
+        "description": "Gentle and affectionate, loves laps.",
+        "image": "pet12.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Gentle, cuddly"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Toby",
+        "species": "Dog",
+        "breed": "Dachshund",
+        "age": 4,
+        "description": "Playful and curious, loves to dig.",
+        "image": "pet13.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Small",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Playful, curious"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Chloe",
+        "species": "Cat",
+        "breed": "Bengal",
+        "age": 2,
+        "description": "Energetic and playful, loves to climb.",
+        "image": "pet14.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Active, adventurous"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Duke",
+        "species": "Dog",
+        "breed": "German Shepherd",
+        "age": 3,
+        "description": "Intelligent and protective, great guard dog.",
+        "image": "pet15.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Large",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Loyal, intelligent"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Zoe",
+        "species": "Cat",
+        "breed": "Abyssinian",
+        "age": 1,
+        "description": "Playful and slender, loves to jump.",
+        "image": "pet16.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Small",
+            "vaccinated": true,
+            "spayedNeutered": false,
+            "temperament": "Playful, agile"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Rusty",
+        "species": "Dog",
+        "breed": "Australian Shepherd",
+        "age": 2,
+        "description": "Energetic and smart, loves outdoor activities.",
+        "image": "pet17.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Active, intelligent"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Sasha",
+        "species": "Cat",
+        "breed": "Russian Blue",
+        "age": 4,
+        "description": "Elegant and quiet, loves calm environments.",
+        "image": "pet18.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Quiet, elegant"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Jack",
+        "species": "Dog",
+        "breed": "Border Collie",
+        "age": 3,
+        "description": "Highly intelligent, loves to work.",
+        "image": "pet19.jpg",
+        "details": {
+            "gender": "Male",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Intelligent, energetic"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Lily",
+        "species": "Cat",
+        "breed": "Calico",
+        "age": 2,
+        "description": "Sweet and playful, loves attention.",
+        "image": "pet20.jpg",
+        "details": {
+            "gender": "Female",
+            "size": "Medium",
+            "vaccinated": true,
+            "spayedNeutered": true,
+            "temperament": "Sweet, playful"
+        }
+    }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View details and adopt a pet from Oregon Paws Shelter.">
+    <title>Oregon Paws Shelter - Pet Details</title>
+    <meta name="author" content="Aaron Corrington">
+    <meta name="description" content="Oregon Paws Shelter is dedicated to rescuing and rehoming animals in need.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/nav.js"></script>
+    <script defer src="scripts/details.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo.webp" alt="Oregon Paws Shelter Logo" class="logo">
+                <h1>Oregon Paws Shelter</h1>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About/Contact</a></li>
+                    <li><a href="gallery.html">Adopt a Pet</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <button class="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger-icon">☰</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="back-link">
+        <a href="gallery.html" class="cta-button" aria-label="Return to adoption gallery">Back to Adoption Gallery</a>
+    </section>
+
+    <main class="main-container">
+        <section id="pet-details"></section>
+        <section>
+            <h2>Adopt This Pet</h2>
+            <div id="confirmation" class="confirmation hidden"></div>
+            <form id="adoption-form" class="adoption-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Oregon Paws Shelter. All rights reserved.</p>
+            <p>1234 Paws Lane, Portland, OR 97201 | (503) 555-1234</p>
+        </div>
+    </footer>
+</body>
+
+</html>

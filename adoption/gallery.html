@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View adoptable pets at Oregon Paws Shelter.">
+    <title>Oregon Paws Shelter - Adopt a Pet</title>
+    <meta name="author" content="Aaron Corrington">
+    <meta name="description" content="Oregon Paws Shelter is dedicated to rescuing and rehoming animals in need.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/nav.js"></script>
+    <script defer src="scripts/gallery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo.webp" alt="Oregon Paws Shelter Logo" class="logo">
+                <h1>Oregon Paws Shelter</h1>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About/Contact</a></li>
+                    <li><a href="gallery.html" aria-current="page">Adopt a Pet</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <button class="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger-icon">☰</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="gallery-main" class="main-container">
+        <h2>Adoptable Pets</h2>
+        <div id="pet-gallery" class="pet-grid"></div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Oregon Paws Shelter. All rights reserved.</p>
+            <p>1234 Paws Lane, Portland, OR 97201 | (503) 555-1234</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Aaron Corrington">
+    <meta name="description" content="A collection of temples.">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#old" class="nav-link">Old</a></li>
+                <li><a href="#new" class="nav-link">New</a></li>
+                <li><a href="#large" class="nav-link">Large</a></li>
+                <li><a href="#small" class="nav-link">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="temple-list-title">Temple Album Home</h2>
+        <div id="temple-list"></div>
+    </main>
+    <footer>
+        <p class="copy">&copy; <span id="year"></span> Aaron Corrington USA</p>
+        <p class="modified">Last modified: <span id="modified"></span></p>
+    </footer>
+</body>
+
+</html>
