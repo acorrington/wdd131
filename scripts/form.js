@@ -27,7 +27,6 @@ const products = [
 ];
   
 document.addEventListener('DOMContentLoaded', () => { 
-    // const products = JSON.parse(localStorage.getItem('products') || '[]');
     products.forEach(product => { 
         const productOption = document.createElement('option');
         productOption.value = product.id;
