@@ -37,6 +37,7 @@ header {
 }
 
 .review-form label.label {
+    width: 100%;
     display: block;
     padding-top: 1rem;
 }
@@ -62,9 +63,9 @@ header {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 400px;
     appearance: none;
-    font-size: 1rem;;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .review-form input[type="radio"],
