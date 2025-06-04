@@ -1,0 +1,165 @@
+:root {
+    --pacific-blue: #2A5775;
+    --darker-blue: #1E5479;
+    --off-white: #F5F5F5;
+}
+
+header {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background-color: var(--pacific-blue);
+    color: var(--off-white);
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.form-section {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: var(--off-white);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*----------- FORM STYLING --------------*/
+.review-form fieldset {
+    margin: .5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.review-form label {
+    color: var(--pacific-blue);
+    font-size: .9rem;
+}
+
+.review-form label.label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.review-form div.label {
+    padding-top: 1rem;
+    color: var(--pacific-blue);
+    font-size: .9rem;
+}
+
+.review-form input[type="text"],
+.review-form input[type="tel"],
+.review-form input[type="email"],
+.review-form input[type="url"],
+.review-form input[type="date"],
+.review-form select,
+.review-form textarea,
+.review-form input[type="number"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    font-size: 1rem;;
+}
+
+.review-form input[type="radio"],
+.review-form input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.review-form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--pacific-blue), var(--darker-blue));
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.review-form input:required {
+    border-left: solid 8px red;
+}
+
+.review-form input:required:valid {
+    border-left: solid 8px green;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* hide the inputs completely */
+.star-rating input {
+    display: none;
+    position: absolute; /* Remove from document flow */
+}
+
+/* set properties of all labels */
+.star-rating > label {
+    width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: orange;
+    position: relative; /* Establish positioning context */
+    cursor: pointer; /* Add pointer cursor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* give label a hover state */
+.star-rating label:hover {
+    color: #ff69b4;
+    transition: 0.2s ease;
+}
+
+.star-rating label:active::before {
+    transform: scale(1.1);
+}
+
+/* set shape of unselected label */
+.star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the star perfectly */
+    line-height: 1;
+    font-size: inherit;
+}
+
+/* set full star shape for checked label and those that come after it */
+.star-rating input:checked ~ label:before {
+    content: '\2605';
+}
+
+@-moz-document url-prefix() {
+    .star-rating input:checked ~ label:before {
+        font-size: 36px;
+        top: 45%; /* Slight adjustment for Firefox */
+    }
+}
+
+footer {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background-color: var(--pacific-blue);
+    color: var(--off-white);
+    padding: 1rem 0;
+    margin: 0 auto;
+}
