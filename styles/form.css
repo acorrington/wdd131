@@ -2,6 +2,15 @@
     --pacific-blue: #2A5775;
     --darker-blue: #1E5479;
     --off-white: #F5F5F5;
+    --default-font: 'Poppins', sans-serif;
+    --background: #041629;
+}
+
+body {
+    font-family: var(--default-font);
+    background-color: var(--background);
+    margin: 0;
+    padding: 0 1rem 0 .5rem;
 }
 
 header {
@@ -11,7 +20,9 @@ header {
     background-color: var(--pacific-blue);
     color: var(--off-white);
     padding: 1rem 0;
-    margin: 0 auto;
+    margin: .5rem auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-section {
@@ -162,5 +173,7 @@ footer {
     background-color: var(--pacific-blue);
     color: var(--off-white);
     padding: 1rem 0;
-    margin: 0 auto;
+    margin: 0 auto .5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
