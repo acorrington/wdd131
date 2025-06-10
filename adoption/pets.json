@@ -6,7 +6,8 @@
         "breed": "Golden Retriever",
         "age": 2,
         "description": "Friendly and energetic, loves to play fetch.",
-        "image": "pet1.jpg",
+        "hero": "pet1-hero.webp",
+        "image": "pet1.webp",
         "details": {
             "gender": "Male",
             "size": "Large",
@@ -22,7 +23,8 @@
         "breed": "Siamese",
         "age": 3,
         "description": "Elegant and vocal, enjoys cozy naps.",
-        "image": "pet2.jpg",
+        "hero": "pet2-hero.webp",
+        "image": "pet2.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -38,7 +40,8 @@
         "breed": "Labrador",
         "age": 4,
         "description": "Loyal companion, great with kids.",
-        "image": "pet3.jpg",
+        "hero": "pet3-hero.webp",
+        "image": "pet3.webp",
         "details": {
             "gender": "Male",
             "size": "Large",
@@ -54,7 +57,8 @@
         "breed": "Tabby",
         "age": 1,
         "description": "Playful kitten, loves to chase toys.",
-        "image": "pet4.jpg",
+        "hero": "pet4-hero.webp",
+        "image": "pet4.webp",
         "details": {
             "gender": "Female",
             "size": "Small",
@@ -70,7 +74,8 @@
         "breed": "Boxer",
         "age": 3,
         "description": "Strong and protective, loves walks.",
-        "image": "pet5.jpg",
+        "hero": "pet5-hero.webp",
+        "image": "pet5.webp",
         "details": {
             "gender": "Male",
             "size": "Large",
@@ -86,7 +91,8 @@
         "breed": "Persian",
         "age": 5,
         "description": "Calm and fluffy, loves quiet spaces.",
-        "image": "pet6.jpg",
+        "hero": "pet6-hero.webp",
+        "image": "pet6.webp",
         "details": {
             "gender": "Male",
             "size": "Medium",
@@ -102,7 +108,8 @@
         "breed": "Beagle",
         "age": 2,
         "description": "Curious and friendly, loves to explore.",
-        "image": "pet7.jpg",
+        "hero": "pet7-hero.webp",
+        "image": "pet7.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -118,7 +125,8 @@
         "breed": "Black Shorthair",
         "age": 4,
         "description": "Mysterious and independent, loves perching.",
-        "image": "pet8.jpg",
+        "hero": "pet8-hero.webp",
+        "image": "pet8.webp",
         "details": {
             "gender": "Male",
             "size": "Medium",
@@ -134,7 +142,8 @@
         "breed": "Poodle",
         "age": 3,
         "description": "Smart and elegant, loves attention.",
-        "image": "pet9.jpg",
+        "hero": "pet9-hero.webp",
+        "image": "pet9.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -150,7 +159,8 @@
         "breed": "Maine Coon",
         "age": 2,
         "description": "Large and friendly, loves to cuddle.",
-        "image": "pet10.jpg",
+        "hero": "pet10-hero.webp",
+        "image": "pet10.webp",
         "details": {
             "gender": "Male",
             "size": "Large",
@@ -166,7 +176,8 @@
         "breed": "Bulldog",
         "age": 5,
         "description": "Calm and loyal, loves to nap.",
-        "image": "pet11.jpg",
+        "hero": "pet11-hero.webp",
+        "image": "pet11.webp",
         "details": {
             "gender": "Male",
             "size": "Medium",
@@ -182,7 +193,8 @@
         "breed": "Ragdoll",
         "age": 3,
         "description": "Gentle and affectionate, loves laps.",
-        "image": "pet12.jpg",
+        "hero": "pet12-hero.webp",
+        "image": "pet12.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -198,7 +210,8 @@
         "breed": "Dachshund",
         "age": 4,
         "description": "Playful and curious, loves to dig.",
-        "image": "pet13.jpg",
+        "hero": "pet13-hero.webp",
+        "image": "pet13.webp",
         "details": {
             "gender": "Male",
             "size": "Small",
@@ -214,7 +227,8 @@
         "breed": "Bengal",
         "age": 2,
         "description": "Energetic and playful, loves to climb.",
-        "image": "pet14.jpg",
+        "hero": "pet14-hero.webp",
+        "image": "pet14.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -230,7 +244,8 @@
         "breed": "German Shepherd",
         "age": 3,
         "description": "Intelligent and protective, great guard dog.",
-        "image": "pet15.jpg",
+        "hero": "pet15-hero.webp",
+        "image": "pet15.webp",
         "details": {
             "gender": "Male",
             "size": "Large",
@@ -246,7 +261,8 @@
         "breed": "Abyssinian",
         "age": 1,
         "description": "Playful and slender, loves to jump.",
-        "image": "pet16.jpg",
+        "hero": "pet16-hero.webp",
+        "image": "pet16.webp",
         "details": {
             "gender": "Female",
             "size": "Small",
@@ -262,7 +278,8 @@
         "breed": "Australian Shepherd",
         "age": 2,
         "description": "Energetic and smart, loves outdoor activities.",
-        "image": "pet17.jpg",
+        "hero": "pet17-hero.webp",
+        "image": "pet17.webp",
         "details": {
             "gender": "Male",
             "size": "Medium",
@@ -278,7 +295,8 @@
         "breed": "Russian Blue",
         "age": 4,
         "description": "Elegant and quiet, loves calm environments.",
-        "image": "pet18.jpg",
+        "hero": "pet18-hero.webp",
+        "image": "pet18.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",
@@ -294,7 +312,8 @@
         "breed": "Border Collie",
         "age": 3,
         "description": "Highly intelligent, loves to work.",
-        "image": "pet19.jpg",
+        "hero": "pet19-hero.webp",
+        "image": "pet19.webp",
         "details": {
             "gender": "Male",
             "size": "Medium",
@@ -310,7 +329,8 @@
         "breed": "Calico",
         "age": 2,
         "description": "Sweet and playful, loves attention.",
-        "image": "pet20.jpg",
+        "hero": "pet20-hero.webp",
+        "image": "pet20.webp",
         "details": {
             "gender": "Female",
             "size": "Medium",

@@ -21,16 +21,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (pet) {
                         app.petName = pet.name;
                         app.petBreed = pet.breed;
+                        app.image = pet.image;
                     } else {
                         app.petName = 'Unknown';
                         app.petBreed = 'Unknown';
+                        app.image = "placeholder.png";
                     }
                 });
 
                 // Display applications with pet details
                 applicationList.innerHTML = applications.map((app, idx) => `
             <div class="application-card" data-index="${idx}">
-                <img src="images/pet${app.petId}.jpg" alt="${app.petName}" loading="lazy">
+                <img src="images/${app.image}" alt="${app.petName}" loading="lazy">
                 <div class="application-details">
                     <h3>${app.petName} (${app.petBreed})</h3>
                     <p><strong>Applicant Name:</strong> ${app.name}</p>
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p><strong>Phone:</strong> ${app.phone}</p>
                     <p><strong>Address:</strong> ${app.address}</p>
                     <p><strong>Pet ID:</strong> ${app.petId}</p>
-                    <p><strong>Submitted on:</strong> ${new Date(app.timestamp).toLocaleDateString()}</p>
+                    <p><strong>Submitted on:</strong> ${new Date(app.timestamp).toLocaleString()}</p>
                 </div>
                 <div class="application-actions">
                     <a href="#" class="approve-btn" data-index="${idx}">Approve</a>
@@ -47,22 +49,22 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `).join('');
 
-                // Add event listeners for Approve/Reject
-                applicationList.querySelectorAll('.approve-btn, .reject-btn').forEach(btn => {
-                    btn.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        const index = parseInt(this.getAttribute('data-index'));
-                        applications.splice(index, 1);
-                        localStorage.setItem('adoptionApplications', JSON.stringify(applications));
-                        // Remove the card from the DOM
-                        this.closest('.application-card').remove();
-                        // If no applications left, show message
-                        if (applications.length === 0) {
-                            applicationList.innerHTML = '<p>No adoption applications submitted yet.</p>';
-                        }
-                    }); 
+            // Add event listeners for Approve/Reject
+            applicationList.querySelectorAll('.approve-btn, .reject-btn').forEach(btn => {
+                btn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const index = parseInt(this.getAttribute('data-index'));
+                    applications.splice(index, 1);
+                    localStorage.setItem('adoptionApplications', JSON.stringify(applications));
+                    // Remove the card from the DOM
+                    this.closest('.application-card').remove();
+                    // If no applications left, show message
+                    if (applications.length === 0) {
+                        applicationList.innerHTML = '<p>No adoption applications submitted yet.</p>';
+                    }
                 });
-            })
-            .catch(error => console.error('Error loading pets:', error));
+            });
+        })
+        .catch(error => console.error('Error loading pets:', error));
     }
 });

@@ -10,20 +10,47 @@ document.addEventListener('DOMContentLoaded', () => {
                 const petDetails = document.getElementById('pet-details');
                 petDetails.innerHTML = `
             <div class="pet-details-container">
-              <img src="images/pet${petId}.jpg" alt="${pet.name}" loading="lazy">
-              <div>
+                <img src="images/${pet.hero}" alt="${pet.name}" loading="lazy">
                 <h2>${pet.name}</h2>
-                <p><strong>Species:</strong> ${pet.species}</p>
-                <p><strong>Breed:</strong> ${pet.breed}</p>
-                <p><strong>Age:</strong> ${pet.age} years</p>
-                <p><strong>Gender:</strong> ${pet.details.gender}</p>
-                <p><strong>Size:</strong> ${pet.details.size}</p>
-                <p><strong>Vaccinated:</strong> ${pet.details.vaccinated ? 'Yes' : 'No'}</p>
-                <p><strong>Spayed/Neutered:</strong> ${pet.details.spayedNeutered ? 'Yes' : 'No'}</p>
-                <p><strong>Temperament:</strong> ${pet.details.temperament}</p>
-                <p>${pet.description}</p>
-              </div>
-            </div>
+                <table class="pet-info-table">
+                    <tr>
+                        <th>Species</th>
+                        <td>${pet.species}</td>
+                    </tr>
+                    <tr>
+                        <th>Breed</th>
+                        <td>${pet.breed}</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td>${pet.age} years</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>${pet.details.gender}</td>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <td>${pet.details.size}</td>
+                    </tr>
+                    <tr>
+                        <th>Vaccinated</th>
+                        <td>${pet.details.vaccinated}</td>
+                    </tr>
+                    <tr>
+                        <th>Spayed/Neutered</th>
+                        <td>${pet.details.spayedNeutered ? 'Yes' : 'No'}</td>
+                    </tr>
+                    <tr>
+                        <th>Temperament</th>
+                        <td>${pet.details.temperament}</td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                        <td>${pet.description}</td>
+                    </tr>
+                </table>
+            </div>             
           `;
             } else {
                 document.getElementById('pet-details').innerHTML = '<p>Pet not found.</p>';

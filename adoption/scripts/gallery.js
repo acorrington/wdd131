@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const petCard = document.createElement('div');
             petCard.classList.add('pet-card');
             petCard.innerHTML = `
-                <img src="images/pet${pet.id}.jpg" alt="${pet.name}" loading="lazy">
+                <img src="images/${pet.image}" alt="${pet.name}" loading="lazy">
                 <h3>${pet.name}</h3>
                 <p>${pet.breed} - ${pet.age} years old</p>
                 <a href="details.html?id=${pet.id}">Learn More</a>

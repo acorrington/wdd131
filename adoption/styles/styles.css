@@ -12,8 +12,7 @@
     --confirmation-text: #065f46;
     --border: #d1d5db;
     --high-contrast-hover: #fefcbf;
-    --font-family: 'Balsamiq Sans', sans-serif;
-    --font-alternate: 'Shadows Into Light Two', sans-serif;
+    --font-family: 'Roboto', sans-serif;
 }
 
 /* Reset and base styles */
@@ -69,9 +68,19 @@ header {
     margin-right: 1rem;
 }
 
-header h1 {
+#header-text h1 {
+    color: var(--white);
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 0;
+}
+
+#header-text h3 {
+    color: var(--white);
+    font-size: .85rem;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
 }
 
 /* Hamburger menu styles */
@@ -110,7 +119,7 @@ header h1 {
     padding: 0.5rem 1rem;
     border: 1px solid var(--white);
     border-radius: 0.5rem;
-    background-color: transparent;
+    background-color: var(--primary-blue);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -127,6 +136,17 @@ header h1 {
 
 .back-link {
     text-align: center;
+}
+
+.back-link a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Hero section */
@@ -330,11 +350,19 @@ header h1 {
 }
 
 /* Pet details */
-/* #pet-details .pet-details-container {
+#pet-details .pet-details-container {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem; 
-}*/
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 40rem;
+    margin: 2rem auto;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 #pet-details img {
     width: 100%;
@@ -346,18 +374,48 @@ header h1 {
 #pet-details h2 {
     font-size: 1.875rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
-#pet-details p {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+.pet-info-table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.pet-info-table th{
+    color: var(--text);
+    padding: 0.5rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+.pet-info-table td {
+    padding: 0.5rem;
+    text-align: left;
 }
 
 /* Adoption form */
+#adoption-form-section {
+    max-width: 40rem;
+    margin: 3rem auto;
+}
+
 .adoption-form {
-    max-width: 32rem;
     margin: 0 auto;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.adoption-form input:required {
+    border-left: solid 8px red;
+}
+
+.adoption-form input:required:valid {
+    border-left: solid 8px green;
 }
 
 .form-group {
@@ -455,7 +513,8 @@ header h1 {
     height: auto;
     height: 12rem;
     object-fit: cover;
-    border-radius: 0.5rem;;
+    border-radius: 0.5rem;
+    ;
 }
 
 .application-actions a {
@@ -617,7 +676,7 @@ button:hover {
     }
 
     #pet-details img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 }
@@ -627,7 +686,7 @@ button:hover {
         flex-direction: column;
         gap: 1rem;
     }
-    
+
     .pagination-link {
         width: 100%;
         text-align: center;
