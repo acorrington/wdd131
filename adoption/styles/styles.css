@@ -497,6 +497,10 @@ header {
     justify-content: center;
 }
 
+.application-actions {
+    width: 100%;
+}
+
 .application-card h3 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -663,6 +667,18 @@ button:hover {
     .contact-right iframe {
         height: 200px;
         /* Reduced height for smaller screens */
+    }
+
+    .application-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .application-actions {
+        display: flex;
+        justify-content: center; /* Center the action buttons */
+        gap: 1rem; /* Add space between buttons */
     }
 }
 

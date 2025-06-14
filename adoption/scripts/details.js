@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </tr>
                     <tr>
                         <th>Vaccinated</th>
-                        <td>${pet.details.spayedNeutered ? 'Yes' : 'No'}/td>
+                        <td>${pet.details.spayedNeutered ? 'Yes' : 'No'}</td>
                     </tr>
                     <tr>
                         <th>Spayed/Neutered</th>
